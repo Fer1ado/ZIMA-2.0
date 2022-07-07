@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/2321a9d04c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="https://unpkg.com/@contentful/app-sdk@4"></script>
+    <script defer src="app.js"></script>
+
+    <title>Tienda Online</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+        <img src="FOTOS_CATALOGO/LOGO-ZIMA.png" alt="logo tienda" />
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="fas fa-cart-plus"></i>
+          </span>
+          <div class="cart-items">0</div>
+        </div>
+      </div>
+    </nav>
+    <!-- fin navbar -->
+
+    <!-- hero -->
+    <header class="hero">
+      <div class="banner">
+        <h1 class="banner-title">coleccion de piezas</h1>
+        <button class="banner-btn">comprar ahora</button>
+      </div>
+    </header>
+    <!-- fin hero -->
+
+    <!-- productos -->
+    <section class="products">
+      <div class="section-title">
+        <h2>Nuestras Piezas</h2>
+      </div>
+      <div class="products-center">
+        <!-- plantilla productos 
+    <article class="product">
+        <div class="img-container">
+            <img src="/TIENDA_YOUTUBE/images/FOTOS_CATALOGO/encabezado1-min.JPG" alt="producto" class="product-img">
+            <button class="bag-btn" data-id="1">
+                <i class="fas fa-shopping-cart"></i>
+                agregar al carrito
+            </button> 
+        </div>
+        <h3>Posa Macetas</h3>
+        <h4>$ 150</h4>
+    </article>
+    fin plantilla productos -->
+      </div>
+    </section>
+    <!-- fin productos -->
+
+    <!-- carrito -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2>Tu Carrito</h2>
+        <div class="cart-content">
+          <!-- plantilla de item carrito -->
+          <!-- <div class="cart-item">
+                <img src="/TIENDA_YOUTUBE/images/FOTOS_CATALOGO/encabezado2-min.jpg" alt="product">
+                <div>
+                    <h4>Tetera China</h4>
+                    <h5>$ 200</h5>
+                    <span class="remove-item">Quitar</span>
+                </div>
+                <div>
+                    <i class="fas fa-chevron-up"></i>
+                    <p class="item-amount"> 1 </p>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div> -->
+
+          <!-- Fin plantilla de item carrito -->
+        </div>
+
+        <div class="cart-footer">
+          <h3>Total Compra : $ <span class="cart-total">0</span></h3>
+          <button class="clear-cart banner-btn">Vaciar Carrito</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- fin carrito -->
+  </body>
+</html>

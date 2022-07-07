@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "posa macetas decorativo",
+        "price": 600.99,
+        "image": {
+          "fields": { "file": { "url": "./FOTOS_CATALOGO/item5-min.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "tazon de mesada",
+        "price": 900.99,
+        "image": {
+          "fields": { "file": { "url": "./FOTOS_CATALOGO/item5-min.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "cuencos de rio",
+        "price": 1300.99,
+        "image": {
+          "fields": { "file": { "url": "./FOTOS_CATALOGO/item5-min.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "platos playos",
+        "price": 900.99,
+        "image": {
+          "fields": { "file": { "url": "./FOTOS_CATALOGO/item5-min.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "juego de mesa",
+        "price": 1800.99,
+        "image": {
+          "fields": { "file": { "url": "./FOTOS_CATALOGO/item5-min.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "platos de postre",
+        "price": 500.99,
+        "image": {
+          "fields": { "file": { "url": "./FOTOS_CATALOGO/item5-min.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "platos de gres",
+        "price": 700.99,
+        "image": {
+          "fields": { "file": { "url": "./FOTOS_CATALOGO/item5-min.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "platos esmaltados",
+        "price": 800.99,
+        "image": {
+          "fields": { "file": { "url": "./FOTOS_CATALOGO/item5-min.jpg" } }
+        }
+      }
+    }
+  ]
+}
